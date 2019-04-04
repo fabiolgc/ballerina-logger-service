@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "4d825b4f-0804-4e0b-bfb3-7a396822c11d",
+		"name": "ballerina",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST Service",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "text/plain",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "teste 123"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/logger",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"logger"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
