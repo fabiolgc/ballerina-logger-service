@@ -11,6 +11,10 @@ Ballerina installed and configured - ballerina/0.990.3
 
 `run logger_service.bal`
 
+![Output](https://github.com/fabiolgc/ballerina-logger-service/blob/master/running-service.png)
+
 3) Call ballerina service: 
 
 `curl -X POST -d "teste" -H "Content-Type: text/plain" http://localhost:3000/api/logger`
+
+![Output](https://github.com/fabiolgc/ballerina-logger-service/blob/master/calling-service.png)
